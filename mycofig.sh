@@ -7,7 +7,7 @@ echo "{" >> ~/.bashrc;
 echo "        git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/ (\1)/'" >> ~/.bashrc;
 echo "}" >> ~/.bashrc;
 
-echo "alias ll='ls -alF'" >> ~/.bashrc;
+echo "alias ll='ls -alFh'" >> ~/.bashrc;
 echo "alias la='ls -A'"  >> ~/.bashrc;
 echo "alias l='ls -CF'" >> ~/.bashrc;
 
